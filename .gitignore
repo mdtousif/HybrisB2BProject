@@ -1,0 +1,57 @@
+# Folders to ignore, whatever the place they are
+config/*
+.metadata
+classes/
+hybris/bin/**/bin
+gensrc/
+jaxbgensrc/
+testclasses/
+idea-module-files/
+eclipsebin/
+testclasses/
+.settings
+
+# Filename patterns to ignore
+*.class
+build.xml
+Generated*.java
+platformhome.properties
+*testclasses.xml
+extensioninfo.xsd
+*hmc.jar
+hmc.xsd
+items.xsd
+beans.xsd
+ruleset.xml
+*.log
+
+#  Addon specific copy folders
+**/_ui/addons
+**/_ui-src/addons
+**/views/addons
+**/tld/addons
+**/tags/addons
+**/messages/addons
+*_bof.jar
+jalo/
+*.DS_Store
+
+# Folders - Automagically Generated
+**/web/addonsrc/
+**/web/commonwebsrc/
+**/web/testclasses/
+**/web/webroot/_ui/addons/
+**/web/webroot/cmscockpit/
+**/web/webroot/cockpit/
+**/web/webroot/productcockpit/
+**/web/webroot/WEB-INF/addons/
+**/web/webroot/WEB-INF/classes/
+**/web/webroot/WEB-INF/messages/addons/
+**/web/webroot/WEB-INF/tags/addons/
+**/web/webroot/WEB-INF/tld/addons/
+**/web/webroot/WEB-INF/views/addons/
+
+**/web/webroot/_ui/responsive/common/
+
+**/import/sampledata/contentCatalogs/rrlDigitalContentCatalog/images/banners
+**/import/sampledata/productCatalogs/rrlDigitalProductCatalog/images
