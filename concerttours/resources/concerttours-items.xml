@@ -48,6 +48,7 @@
 	</relations>
 
 	<itemtypes>
+
 <!--
 		<itemtype generate="true"
 		   code="MyProduct"
